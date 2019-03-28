@@ -1,40 +1,28 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
 }
 
-body{
+body {
 	background-color: #f5ffff;
 }
 
-header{
-	font-family: 'Roboto', sans-serif;
+header {
+	font-family: sans-serif;
 	width: 100%;
 	background-color: #6DA8CA;
 	border-bottom: 0.22pc solid red;
-	position:relative;
-}
-
-footer{
-	display: block;
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 2.4pc;
-	background-color: #6DA8CA;
-}
-
-h1{
 	position: relative;
+}
+
+h1 {
 	font-size: 3.5pc;
-	text-align: center;
 	color: #FFFFFF;
 }
 
-h2{
+h2 {
 	padding-top: 2.2pc;
 	padding-left: 1.5pc;
 	text-align: left;
@@ -42,19 +30,46 @@ h2{
 	color: #75d69d;
 }
 
-h3{
-	text-align: center;
+p {
+	font-family: 'Roboto', sans-serif;
+	padding: 1.5pc;
+	font-size: 1.2pc;
+}
+
+a {
+	font-size: 110%;
+	color: #75d69d;
+}
+
+footer {
+	display: block;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #6DA8CA;
+}
+
+.container {
+	position: relative;
+}
+
+.link-footer {
+	position: absolute;
+	display: inline-block;
 	font-size: 1.5pc;
 	color: #FFFFFF;
 }
 
-p{
-	font-family: 'Roboto', sans-serif;
-	padding: 1.5pc;
-	font-size: 1.3pc;
+.read-more {
+	background-color: #75d69d;
+	color:white;
+	border: 2px solid #80f69f;
 }
 
-a{
-	font-size:1.4pc;
-	color: #75d69d;
+.icon {
+	width: 2.5pc;
+	display: inline-block;
+	position: relative;
 }
