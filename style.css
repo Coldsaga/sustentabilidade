@@ -14,11 +14,11 @@ body {
 
 header {
 	background-color: #4a7fd4;
-	padding: 30px 30px;
+	padding: 27px 30px;
 }
 
 .inner-header{
-	font-size: 2.5em;
+	font-size: 1.5em;
 	color: #FFFFFF;
 	font-family: 'Roboto', sans-serif;
 }
@@ -37,7 +37,7 @@ h1, h2 {
 
 p {
 
-	color: black;
+	color: #000000;
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.6;
 	padding: 1.2em 1.5em 2.4em 1.5em;
