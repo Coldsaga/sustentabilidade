@@ -53,3 +53,14 @@ h5 {
     text-align: center;
     padding: 25px;
 }
+
+.read-more {
+    border-bottom: 3px solid #3c7ae1; 
+}
+
+.read-more:hover{
+    color: #fff;
+    background-color: #3c7ae1;
+    border: 2px solid #3c7ae1;
+    opacity: 0.9;
+}
