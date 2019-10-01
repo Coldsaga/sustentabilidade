@@ -1,4 +1,4 @@
-body, ul, h1, li, footer, img, h1, h2, h3, h4, h5, h6, a, p {
+body, ul, h1, li, header, footer, img, h1, h2, h3, h4, h5, h6, a, p, ul {
     text-decoration: none;
     margin: 0;
     padding: 0;
@@ -9,18 +9,27 @@ body, ul, h1, li, footer, img, h1, h2, h3, h4, h5, h6, a, p {
     font-family: 'Roboto', 'Times New Roman';
 }
 
+a:hover {
+    opacity: 0.8;
+}
+
 body {
     overflow-x: hidden;
 }
 
 header, footer {
     background-color: #3c7ae1;
-    height: 100px;
+    height: 10vh;
+}
+
+main {
+    min-height: 71vh;
+    margin-bottom: 40px;
 }
 
 main img {
     width: 100vw;
-    margin-bottom: 30px;    
+    margin-bottom: 30px;
 }
 
 h1 {
@@ -42,6 +51,12 @@ p {
     line-height: 1.7em;
 }
 
+ul {
+    font-size: 1.3em;
+    padding: 0px 150px;
+    padding-left: 170px;
+}
+
 div img {
     height: 300px;
     width: auto;
@@ -55,11 +70,8 @@ h5 {
     padding: 25px;
 }
 
-footer {
-    margin-top: 30px;
-}
-
 .profile {
+    margin: 50px;
     height: 300px;
     display: block;
     width: auto;
@@ -67,7 +79,6 @@ footer {
     margin-right: auto;
     border: 3px solid #0000FF;
     border-radius: 300px;
-    margin-top: 40px;
 }
 
 .read-more {
@@ -78,5 +89,14 @@ footer {
     color: #fff;
     background-color: #3c7ae1;
     border: 2px solid #3c7ae1;
-    opacity: 0.9;
+}
+
+.contact-link {
+    color: #fff;
+    background-color: #3c7ae1;
+    border: 12px solid #3c7ae1;
+}
+
+.center {
+    text-align: center;
 }
